@@ -49,4 +49,4 @@ GET /api: Vrátí "Hello World!"
 GET /api/litacka: Endpoint pro ověření karty Lítačka (vyžaduje platný API klíč v hlavičce x-api-key)
 
 
-**Poznámka:** Proměnná `VALID_API_KEY` je pro zjednodušení součástí kódu a je dostuoná v souboru .env. V reálné aplikaci by soubor .env byl součástí .gitignor a byl k dispozici v proměnné prostředí.
+**Poznámka:** Proměnná `VALID_API_KEY` je pro zjednodušení součástí kódu a je dostupná v souboru .env. V reálné aplikaci by soubor .env byl součástí .gitignor a byl k dispozici v proměnné prostředí.
