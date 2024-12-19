@@ -30,7 +30,7 @@ Ověří zadaný API klíč.
 - Tělo: JSON objekt s klíčem `apiKey`
 
 **Odpověď:**
-- V případě úspěchu: Data získaná z `/api/litacka` endpointu
+- V případě úspěchu: HTML (ejs) stránka s formulářem pro ověření karty Lítačka
 - V případě chyby: Status kód 500 a zpráva "An error occurred"
 
 ## Ověření karty Lítačka
